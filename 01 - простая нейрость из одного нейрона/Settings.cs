@@ -1,5 +1,6 @@
 ﻿namespace простая_нейросеть_из_одного_нейрона
 {
+    //ВАЖНО: ХОТЬ ПРОЕКТ И ПИШЕТСЯ С УЧАСТИЕМ НЕЙРОСЕТЕЙ, А ВЕСЬ ПРОЦЕСС ОБУЧЕНИЯ ПРОХОДИТ ПОД РУКОВОДСТВОМ НЕЙРОНКИ - САМ КОД ПОЛНОСТЬЮ САМОРУЧНЫЙ, А ЗНАЧИТ МОЖЕТ СОДЕРЖАТЬ ОШИБКИ
     internal static class Settings
     {
         /// <summary>
@@ -7,6 +8,6 @@
         /// </summary>
         public const bool ЧЕНЖЛОГ_КАЖДОГО_НЕЙРОНА_ВКЛЮЧЕН = false;
         public static double размерШага { get; private set; } = 0.1;
-        public static double допустимаяОшибка { get; private set; } = размерШага * 2;
+        public static double допустимаяОшибка { get; private set; } = 0;
     }
 }

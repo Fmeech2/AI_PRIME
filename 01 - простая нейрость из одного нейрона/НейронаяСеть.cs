@@ -10,8 +10,8 @@ namespace простая_нейросеть_из_одного_нейрона
     {
         public static Neuron[] нейроны { get; private set; } =
             {
-                new Neuron(2, 2),
-                new Neuron(2, 2),
+                new Neuron(3, 2),
+                new Neuron(3, 0),
             };
     public static int колвоНейронов = нейроны.Length;
     }

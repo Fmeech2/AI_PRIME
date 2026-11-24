@@ -49,6 +49,7 @@
     <Compile Include="DataSet.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="АлгоритмыОбученияНейросети.cs" />
+    <Compile Include="ЛОГГИ.cs" />
     <Compile Include="МетрикиОшибки.cs" />
     <Compile Include="НейронаяСеть.cs" />
     <Compile Include="ПроверочныеДанные.cs" />
