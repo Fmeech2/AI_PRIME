@@ -30,5 +30,12 @@ namespace простая_нейросеть_из_одного_нейрона
                 }
             }
         }
+        public static void ЗаписатьЧенжлонг(string text, List<string> ченжлог)
+        {
+            if (Settings.ЧЕНЖЛОГ_КАЖДОГО_НЕЙРОНА_ВКЛЮЧЕН)
+            {
+                ченжлог.Add(text);
+            }
+        }
     }
 }

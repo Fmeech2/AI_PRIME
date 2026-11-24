@@ -7,7 +7,10 @@
         /// Включить ЛОГИ каждого шага каждого нейрона
         /// </summary>
         public const bool ЧЕНЖЛОГ_КАЖДОГО_НЕЙРОНА_ВКЛЮЧЕН = false;
-        public static double размерШага { get; private set; } = 0.1;
+        public static double размерШага { get; private set; } = 0.1; //УСТАРЕВШЕЕ
+        public static double размерШагаВеса { get; private set; } = 0.1;
+        public static double размерШагаСмещения { get; private set; } = 0.1;
+        
         public static double допустимаяОшибка { get; private set; } = 0;
     }
 }
